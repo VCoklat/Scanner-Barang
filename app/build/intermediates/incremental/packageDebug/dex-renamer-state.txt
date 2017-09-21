@@ -1,0 +1,7 @@
+#Thu Jan 26 10:49:36 WIB 2017
+base.0=/home/vcoklat/Documents/Scanner_Barang/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_ad71835f17a969443130ee79b394c6e66f93da1c
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/vcoklat/Documents/Scanner_Barang/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_79ad2f31ed66af6affedc0ac09d9755845245788/classes.dex
+base.1=/home/vcoklat/Documents/Scanner_Barang/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_79ad2f31ed66af6affedc0ac09d9755845245788
+file.0=/home/vcoklat/Documents/Scanner_Barang/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_ad71835f17a969443130ee79b394c6e66f93da1c/classes.dex

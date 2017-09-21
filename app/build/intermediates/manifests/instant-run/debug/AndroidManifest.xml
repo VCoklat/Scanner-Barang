@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lanch.scanner"
+    android:versionCode="1"
+    android:versionName="1.1.5" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- Include required permissions for Google Maps API to run. -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        name="com.example.lanch.scanner.MyApplication"
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.lanch.scanner.activity.loginRegisterActivityRequest.LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.lanch.scanner.activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.example.lanch.scanner.activity.SendDataActivity"
+            android:label="Submit"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.example.lanch.scanner.activity.InquiryScanActivity"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.example.lanch.scanner.activity.HistoryActivity"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity android:name="com.example.lanch.scanner.camera_scan.CustomPhotoGalleryActivity" >
+        </activity>
+        <activity
+            android:name="com.example.lanch.scanner.camera_scan.PhotoUploadActivity"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.example.lanch.scanner.camera_scan.ScanActivity"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.example.lanch.scanner.activity.ScanActivity"
+            android:label="@string/scanner_activity"
+            android:theme="@style/AppTheme"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <meta-data
+                android:name="android.support.UI_OPTIONS"
+                android:value="splitActionBarWhenNarrow" />
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

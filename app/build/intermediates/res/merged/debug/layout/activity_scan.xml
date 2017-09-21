@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#455A64">
+
+    <FrameLayout
+        android:id="@+id/Scan"
+        android:layout_width="fill_parent"
+        android:layout_height="390dp"
+        android:saveEnabled="true"
+        android:layout_gravity="center_horizontal|top">
+
+    </FrameLayout>
+
+    <Button
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal|bottom" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="122dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:text="0"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal|bottom"
+        android:textSize="72dp"
+        android:textColor="#FFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="165dp"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Scanned Items"
+        android:id="@+id/textView2"
+        android:layout_gravity="left|bottom"
+        android:textColor="#FFFF" />
+
+</FrameLayout>
